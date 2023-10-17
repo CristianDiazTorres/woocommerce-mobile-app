@@ -34,7 +34,9 @@ $ git clone https://github.com/ntphuc/react-native-woocommerce-food.git
 $ cd foodapp
 $ yarn install or npm install
 ```
+
 ### Installation SERVER NODEJS for WooCommerce Rest API
+
 - Extract file zip server.zip
 - cd to folder server
 - Open terminal to start server by command : $ node server.js
