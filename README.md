@@ -3,6 +3,7 @@
 An app developed on React Native which connect to WordPress WooCommerce API to display products and order.
 
 # Video Demo
+
 -  Link demo: https://www.youtube.com/watch?v=7BkctT_0z8M
 
 ### What's included
@@ -16,6 +17,7 @@ An app developed on React Native which connect to WordPress WooCommerce API to d
 - [WooCommerce API](https://docs.woocommerce.com/document/woocommerce-rest-api/) WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API
 
 ### Requirements
+
 - [Node](https://nodejs.org) `4.x` or newer
 - [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for development
 - [Android Studio](https://developer.android.com/studio/index.html) for Android development
