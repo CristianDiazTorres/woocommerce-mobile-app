@@ -14,7 +14,7 @@ export default class Contact extends Component{
 const styles = StyleSheet.create({
 	container: {
 		backgroundColor: 'black',
-		paddingTop: 64,
+		paddingTop: 60,
 		marginBottom:50
 	},
 })
