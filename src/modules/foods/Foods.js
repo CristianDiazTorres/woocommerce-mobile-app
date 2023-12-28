@@ -162,24 +162,24 @@ class Foods extends Component {
 					backButtonHidden: false,
 
 				});
-				//this.props.actions.addToCards(this.props.nowPlayingFoods[0]);
-				// let rightButtons = [];
-				// if (Platform.OS === 'ios') {
-				// 	rightButtons = [
-				// 		{
-				// 			id: 'close',
-				// 			title: 'Close',
-				// 			icon: iconsMap['ios-close']
-				// 		}
-				// 	];
-				// }
-				// this.props.navigator.showModal({
-				// 	screen: 'foodapp.CreatePost',
-				// 	title: 'CreatePost',
-				// 	navigatorButtons: {
-				// 		rightButtons
-				// 	}
-				// });
+				this.props.actions.addToCards(this.props.nowPlayingFoods[0]);
+				let rightButtons = [];
+				if (Platform.OS === 'ios') {
+					rightButtons = [
+						{
+							id: 'close',
+							title: 'Close',
+							icon: iconsMap['ios-close']
+						}
+					];
+				}
+				this.props.navigator.showModal({
+					screen: 'foodapp.CreatePost',
+					title: 'CreatePost',
+					navigatorButtons: {
+						rightButtons
+					}
+				});
 			}
 		}
 	}
